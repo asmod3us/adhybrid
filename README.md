@@ -1,0 +1,1 @@
+Sample [Cordova](https://cordova.apache.org) project with an Android platform using the [AppDynamics plugin](https://github.com/steveww/appdplugin). Also works with [PhoneGap Build](https://build.phonegap.com).
