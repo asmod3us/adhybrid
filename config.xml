@@ -23,6 +23,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <plugin name="com.appdynamics.appdplugin" spec="/Users/achim.staebler/Projects/libertyglobal/appdplugin" />
+    <plugin name="com.appdynamics.appdplugin" spec="https://github.com/steveww/appdplugin/" />
     <engine name="android" spec="~6.0.0" />
 </widget>
