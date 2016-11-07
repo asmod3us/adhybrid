@@ -251,16 +251,7 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile(project(path: "CordovaLib", configuration: "debug"))
     releaseCompile(project(path: "CordovaLib", configuration: "release"))
-    compile "com.appdynamics:appdynamics-runtime:4.+"
     // SUB-PROJECT DEPENDENCIES END
-}
-
-adeum {
-    account {
-        name "The EUM Account Name from the License screen"
-        licenseKey "The EUM License Key from the License screen"
-    }
-    url "https://localhost:7001"
 }
 
 def promptForReleaseKeyPassword() {

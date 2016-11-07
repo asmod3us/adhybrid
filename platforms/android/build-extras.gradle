@@ -1,0 +1,14 @@
+apply plugin: 'adeum'
+
+adeum {
+    account {
+        name 'NAME FROM LICENSE'
+        licenseKey 'KEY FROM LICENSE'
+    }
+    proguardMappingFileUpload {
+        failBuildOnUploadFailure false //should build fail if upload fails? Defaults to false.
+        enabled false //enables automatic uploads. Defaults to true.
+    }
+}
+
+dependencies.compile 'com.appdynamics:appdynamics-runtime:4.+'
