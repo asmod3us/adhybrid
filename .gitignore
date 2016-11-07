@@ -1,6 +1,8 @@
 # Mac
 .DS_Store
 
+.gradle
+
 # android
 platforms/android/assets/www
 platforms/android/bin
