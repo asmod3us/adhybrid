@@ -9,20 +9,7 @@ If you want to set up AppDynamics with your own Cordova or PhoneGap app, here's 
     or
 
     ```phonegap plugin add https://github.com/steveww/appdplugin```
-2. Add classpath entry `classpath 'com.appdynamics:appdynamics-gradle-plugin:4.+'` to `build.gradle`. It will look similar to this after:
-
-   ```
-buildscript {
-...
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
-        classpath 'com.appdynamics:appdynamics-gradle-plugin:4.+'
-    }
-...
-}
-
-    ```
-3. In some cases, CordovaLib's build.gradle needs to be pointed to jcenter to find the right version of gradle. It will look similar to this after:
+1. In some cases, CordovaLib's build.gradle needs to be pointed to jcenter to find the right version of gradle. It will look similar to this after:
 
     ```
 buildscript {
@@ -34,4 +21,4 @@ buildscript {
     ...
 }
 ```
-4. Review the [docs](https://docs.appdynamics.com/display/PRO42/Instrument+a+Mobile+Application) for additional platform-specific setup.
+1. Review the [docs](https://docs.appdynamics.com/display/PRO42/Instrument+a+Mobile+Application) for additional platform-specific setup.
